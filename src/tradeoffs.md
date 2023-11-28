@@ -49,7 +49,7 @@ contracts that will cost you an arm and leg but are wholly incapable
 of supprorting all the modern components in your software stack.
 
 
-## High quality high cost developers vs cost-optimized commodity developers
+## High quality high cost developers vs cost-optimised commodity developers
 
 We are unashamedly developer centered. We love working in well crafted codebases written by skillful
 developers who take pride in their craft and their code - these codebases are easy to extend and debug. Conversely we have

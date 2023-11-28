@@ -13,3 +13,5 @@
 - [The Power of 10100](./power.md)
 
 - [Methodology](./method.md)
+
+- [Authors](./authors.md)

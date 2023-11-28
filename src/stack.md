@@ -45,8 +45,8 @@ microservice platform.
          |           |----------| |----------| |----------|
          |                 |            |            |
    |-----------|     |----------| |----------| |----------|
-   | public    |     | private  | | optional | | various  |    // Only ingress from NEG
-   | file      |     | file     | | graphql  | | golang   |    // Various container services 
+   | public    |     | private  | | Frontend | | backend  |    // Only ingress from NEG
+   | file      |     | file     | | web      | | API      |    // Various container services 
    | proxy     |     | proxy    | | server   | | services |    // Only egress to private network
    |-----------|     |----------| |----------| |----------|
          |                     |                 |

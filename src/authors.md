@@ -1,18 +1,17 @@
 # Authors
 
-- Anastasia Starostina
-
-    Software Engineer Atos
-
-
 - Steven Lee
 
-    Head of Software Engineering Atos
+    Head of Software Engineering
+
+- Anastasia Starostina
+
+    Software Engineer
 
 - Vivian Leong
 
-    Software Engineer Atos
+    Software Engineer
 
 - Kavi Pelpola
 
-    Senior Software Engineering Atos
+    Senior Software Engineering

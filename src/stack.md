@@ -3,7 +3,7 @@
 This chapter describes the technology stack used in 10.10.0 applicattions and explains the reasons
 for the technology choices. Take note of how few dependencies there are in this stack.
 
-## Fronmtend
+## Frontend
 - golang
 - htmx (https://htmx.org)
 - tmpl (https://pkg.go.dev/text/template)

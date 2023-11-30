@@ -1,0 +1,3 @@
+# CICD
+
+- github actions

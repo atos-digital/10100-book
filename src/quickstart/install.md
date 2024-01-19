@@ -4,7 +4,7 @@
 
 [Download go](https://go.dev/dl/) for your OS and install it.
 
-![Go](/img/go_download.png)
+![Go](../img/go_download.png)
 
 The official instructions are [here](https://go.dev/doc/install).
 
@@ -14,7 +14,7 @@ If you are using Windows, the installer should setup the path for you.
 
 Ensure that `go` is on your path, you should be able to type go in `terminal` or `cmd/powershell` and see the help output.
 
-![Go](/img/go_cmd.png)
+![Go](../img/go_cmd.png)
 
 ## Install Git
 
@@ -28,7 +28,7 @@ Ensure that `go` is on your path, you should be able to type go in `terminal` or
 
 You should be able to type `git` in terminal or cmd/powershell and see the help output.
 
-![Git](/img/git_cmd.png)
+![Git](../img/git_cmd.png)
 
 ## Install the vision cli
 

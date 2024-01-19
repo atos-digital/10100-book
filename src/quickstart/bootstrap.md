@@ -1,4 +1,4 @@
-# Vision
+# Bootstrap
 
 We use a templating tool [Vision](https://github.com/vision-cli/vision) to produce the scaffolding code that
 contains our best practice. It is not necessary to use this tool, Vision is not a dependency, but rather used as

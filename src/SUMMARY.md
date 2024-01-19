@@ -6,6 +6,18 @@
   - [10+ years evergreen](./what/evergreen.md)
   - [Zero operations](./what/zero.md)
 
+- [Quick start](./what.md)
+
+  - [Installation](./quickstart/install.md)
+  - [Bootstrap](./quickstart/bootstrap.md)
+
+- [The Tech Stack](./stack.md)
+
+  - [Frontend](./stack/frontend.md)
+  - [Backend](./stack/backend.md)
+  - [Microservices platform](./stack/microservices.md)
+  - [CICD](./stack/cicd.md)
+
 - [Trade-offs](./tradeoffs.md)
 
   - [Stability and simplicity](./tradeoffs/stability.md)
@@ -15,14 +27,6 @@
 - [Libraries vs. Frameworks](./libs.md)
 
 - [Opinionated](./opinionated.md)
-
-- [The Tech Stack](./stack.md)
-
-  - [Frontend](./stack/frontend.md)
-  - [Backend](./stack/backend.md)
-  - [Microservices platform](./stack/microservices.md)
-  - [CICD](./stack/cicd.md)
-  - [Vision](./stack/vision.md)
 
 - [The Power of 10100](./power.md)
 

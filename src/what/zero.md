@@ -1,8 +1,6 @@
 # Zero operations
 
-## The status quo
-
-Many enterprise apps come with a significant maintenance burden, requiring teams to devote significant time to updating, upgrading, and patching applications as well as their third party dependencies. This takes up valuable developer time and reduces capacity for new feature development. In our view, there are two reasons for this.
+Many enterprise apps come with a significant maintenance burden, requiring teams to devote time to updating, upgrading, and patching applications as well as their third party dependencies. This takes up valuable developer time and reduces capacity for new feature development. This is driven by two main factors.
 
 ### Tightly-coupled infrastructure
 

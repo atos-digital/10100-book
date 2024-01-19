@@ -1,6 +1,6 @@
 # Reusable functions
 
-This idea enhances code versatility and scalability. By encapsulating specific features at the lowest level,
+This idea enhances code versatility and scalability. By encapsulating specific features at the lowest level of the software model,
 you can create modular components that can be easily integrated across various contexts. Consider this code
 
 ```go

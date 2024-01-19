@@ -6,10 +6,12 @@
   - [10+ years evergreen](./what/evergreen.md)
   - [Zero operations](./what/zero.md)
 
-- [Quick start](./what.md)
+- [Quick start](./quick.md)
 
   - [Installation](./quickstart/install.md)
   - [Bootstrap](./quickstart/bootstrap.md)
+
+- [Live Demo](./demo.md)
 
 - [The Tech Stack](./stack.md)
 
@@ -30,17 +32,16 @@
 
 - [The Power of 10100](./power.md)
 
+  - [Standard go practices](./power/practices.md)
+  - [Use stdlib for business logic](./power/stdlib.md)
   - [Avoid complex functions](./power/complex.md)
   - [Small files](./power/small.md)
   - [Deterministic business logic](./power/deterministic.md)
-  - [Use stdlib for business logic](./power/stdlib.md)
-  - [Use a style guide](./power/style.md)
-  - [Standard go practices](./power/practices.md)
   - [Reusable functions](./power/reusable.md)
-  - [Return errors](./power/errors.md)
-  - [Immutable heap memory](./power/immutable.md)
-  - [Initialise with capacity](./power/capacity.md)
+  - [Use a style guide](./power/style.md)
 
 - [Methodology](./method.md)
 
-- [Authors](./authors.md)
+---
+
+[Authors](./authors.md)

@@ -1,6 +1,6 @@
 # What is 10.10.0?
 
-<img src="../img/10100-dark.svg" alt="10100" width="50%"/>
+<img src="/img/10100-dark.svg" alt="10100" width="50%"/>
 
 10.10.0 is an approach to building enterprise apps based on [Golang](https://go.dev) and [HTMX](https://htmx.org) that enables the [rapid](what/develop.md) development of [evergreen](what/evergreen.md) and [zero ops](what/zero.md) apps.
 

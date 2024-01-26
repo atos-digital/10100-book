@@ -11,5 +11,5 @@
 10.10.0 apps use technologies pioneered in **digital natives**, but are tailored to meet the
 requirements and complexities found in **enterprise**. Specifically:
 
-- Trade-off in favour of simplicity over complexity to handle very high throughput requirements of digital natives
-- Trade-off in favour of adding required operational and security controls than you get out-of-the-box
+- Trade-off in favour of simplicity instead complex high throughput requirements of digital natives
+- Include enterprise required operational and security controls

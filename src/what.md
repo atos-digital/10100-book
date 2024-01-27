@@ -1,15 +1,15 @@
-# What is 10.10.0?
-
-<img src="./img/10100-dark.svg" alt="10100" width="50%"/>
+<div style="text-align: center">
+    <h1>What is 10.10.0?</h1>
+    <img src="./img/10100-dark.svg" alt="10100 logo" width="50%"/>
+</div>
 
 10.10.0 is an approach to building enterprise apps based on [Golang](https://go.dev) and [HTMX](https://htmx.org) that enables the [rapid](what/develop.md) development of [evergreen](what/evergreen.md) and [zero ops](what/zero.md) apps.
 
-[Golang](https://go.dev) is used for frontend and backend development because of its backward compatibility guarantee, meaning code that is written today will compile ten years from now (as has been the case for that last ten years).
+[Golang](https://go.dev) is used for frontend and backend development because of its backward compatibility guarantee, meaning code that is written today will be guaranteed to compile in the future with no changes (as has been the case for that last 13 years).
 
-10.10.0 apps have almost no dependencies (direct and indirect) which means these apps have minimal supply chain issues such as obsolescence, patching, etc. The few dependences that are used have been stable for many years.
+10.10.0 apps have almost no direct dependencies and no indirect dependencies which means these apps have minimal supply chain issues such as obsolescence, patching, etc. The few dependences that are used have been stable for many years and have no transitive dependencies.
 
-10.10.0 apps use technologies pioneered in **digital natives**, but are tailored to meet the
-requirements and complexities found in **enterprise**. Specifically:
+10.10.0 apps use technologies pioneered in **digital natives**, but are tailored to meet the requirements and complexities found in **enterprise**. Specifically:
 
-- Trade-off in favour of simplicity instead complex high throughput requirements of digital natives
+- Favour of simplicity for long term maintainabiliy overd complex high throughput requirements of digital natives
 - Include enterprise required operational and security controls

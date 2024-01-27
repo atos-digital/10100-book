@@ -1,6 +1,6 @@
 # Installation
 
-10.10.0 apps only need **go** to run. The rest of tools in this installation guide are to make an awesome developer experience.
+10.10.0 apps only need [go](https://go.dev/) to run. The rest of tools in this installation guide are to make an awesome developer experience.
 
 ## Install Golang
 
@@ -16,9 +16,9 @@ If you are using Windows, the installer should setup the path for you.
 
 Ensure that `go` is on your path, you should be able to type go in `terminal` or `cmd/powershell` and see the help output.
 
-Once go is installed, and the GOBIN path is set, you can easily install go tools below.
-
 ![Go](../img/go_cmd.png)
+
+Once go is installed, you can add the GOPATH to your system path. GOPATH is where go will install any tools installed using `go install`, This is typically your `$HOME/go/bin`, this should be added to your system PATH to allow you to run installed tools.
 
 ## Node
 
@@ -60,7 +60,7 @@ To simply run the app, run the following command from the root of the project:
 make
 ```
 
-## Install the vision cli
+## (Optional) Install the vision cli for bootstrapping projects
 
 Install the [vision-cli](https://github.com/vision-cli) tool which is used create 10.10.0 project scaffolding.
 

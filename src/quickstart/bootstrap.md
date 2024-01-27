@@ -1,6 +1,6 @@
 # Bootstrap
 
-The [Vision](https://github.com/vision-cli/vision) tool will create a base 10.10.0 applications scaffolding code.
+The [Vision](https://github.com/vision-cli/vision) tool can be used to scaffold 10.10.0 application code. It works by creating projects with a predefined template.
 Vision is not a dependency, but rather used as an accelerator.
 
 For example:
@@ -32,4 +32,4 @@ cd myapp
 make
 ```
 
-You will be able to access the app at http://localhost:8080
+You will be able to access the app at <http://localhost:8080>

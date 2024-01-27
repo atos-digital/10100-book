@@ -1,6 +1,8 @@
 # 10 weeks to develop
 
-Enterprises can take longer to develop features than necessary mainly due to two factors.
+## Existing approaches
+
+Enterprises tend to hae longer development cycles for features than necessary mainly due to two factors.
 
 ### Complex decision-making processes
 
@@ -16,10 +18,12 @@ Many enterprises rely on legacy systems that are deeply ingrained in their opera
 
 ### Simplified development workflow
 
-Use the most lean development system appropriate to your circumstance, preferably something light-weight like [Kanban](<https://en.wikipedia.org/wiki/Kanban_(development)>). Developers work directly with users in actively guiding the trajectory of the product, identifying features, breaking down work into small chunks (no more than a week) and prioritising the development effort. This leads to smaller WIP, much shorter feedback cycles, and the product tracking much closer to user needs, reducing the risk of cost overruns and missing business goals.
+Use the most lean development system appropriate to your circumstance, preferably something light-weight like [Kanban](<https://en.wikipedia.org/wiki/Kanban_(development)>). **Developers work directly with users** in actively guiding the trajectory of the product, identifying features, breaking down work into small chunks (no more than a week) and prioritising the development effort. This leads to smaller WIP, much shorter feedback cycles, and the product tracking much closer to user needs, reducing the risk of cost overruns and missing business goals.
 
 ### Standardised, opinionated tech stack
 
 Use the 10.10.0 tech stack based on a [Golang](https://go.dev) and [HTMX](https://htmx.org). This tech stack avoids the constant upgrade cycles of frameworks such as [dotnet](https://dotnet.microsoft.com/en-us/) or [java](https://www.java.com/en/), and sprawling dependencies with their complex supply chains.
 
-Use the opinionated 10.10.0 application template that comes with a standardised design patters, CI/CD pipeline, linters, and mature libraries to reduce the time and effort spent on getting started and enforcing good practices. The tool [vision](https://github.com/vision-cli/vision) can be used to bootstrap a project with this template.
+Use the opinionated 10.10.0 application [template](https://github.com/atos-digital/10.10.0-template) that comes with a standardised design patterns, CI/CD pipeline, linters, and mature libraries to reduce the time and effort spent on getting started and enforcing good practices.
+
+Optionally the tool [vision](https://github.com/vision-cli/vision) can be used to bootstrap a project with this template.

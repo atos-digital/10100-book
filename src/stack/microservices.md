@@ -3,36 +3,32 @@
 - terraform or bicep
 - make
 
-We use terraform or bicep (for Azure) to create infrastructure as code to deploy the following
-microservice platform.
+##  Azure
 
-```
-   |-----------------------------------------------------|
-   |                  Https Load Balancer                |     // Https ingress to the platform
-   |-----------------------------------------------------|
-         |                              |
-         |                 |------------------------|
-         |                 |       API Gateway      |          // API gateway to support discovery, auth, etc
-         |                 |------------------------|
-         |                              |
-         |           |----------| |----------| |----------|
-         |           |   NEG    | |    NEG   | |    NEG   |     // Load balancing across kube clusters and data centres
-         |           |----------| |----------| |----------|
-         |                 |            |            |
-   |-----------|     |----------| |----------| |----------|
-   | public    |     | private  | | Frontend | | backend  |    // Only ingress from NEG
-   | file      |     | file     | | web      | | API      |    // Various container services
-   | proxy     |     | proxy    | | server   | | services |    // Only egress to private network
-   |-----------|     |----------| |----------| |----------|
-         |                     |                 |
-  |-------------|       |-------------|   |-------------|    |---------|
-  |   Storage   |       |   Storage   |   |   private   |----| Jumpbox |  // VPN jumpbox
-  |   (public)  |       |  (private)  |   |   network   |    |---------|
-  |-------------|       |-------------|   |-------------|----VPC peering  // VPC peering IP
-                                                 |
-                                 |-------------|    |-------------|
-                                 |   Database  |    |    Other    |
-                                 |  (private)  |    |  (private)  |
-                                 |-------------|    |-------------|
+Microsoft Azure have some very useful features that can be used to create a microservices platform with zero ops.
+[Dapr architecture](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/serverless/microservices-with-container-apps-dapr) is a good example of this.
+We can simplify this further by using only ACI and Dapr where needed.
+
+```mermaid
+C4Context
+      title Simple microservices platform
+      System_Ext(Users, "Internet", "Users")
+      Boundary(az, "Azure", "Cloud") {
+            System(gateway, "Load balancer", "Azure Load Balancer")
+            Boundary(srvvpc, "Services", "VPC") {
+                  System(microserviceA, "DAPR Microservice", "10100 App")
+                  System(microserviceB, "DAPR Microservice", "10100 App")
+                  System(microserviceC, "DAPR Microservice", "10100 App")
+                  System(microserviceD, "DAPR Microservice", "10100 App")
+
+                  Boundary(dapr, "Events", "PubSub") {
+                        SystemQueue(pubsub, "PubSub", "DAPR managed")
+                  }
+            }
+
+            Boundary(db, "Data", "VPC") {
+                  SystemDb(SystemE, "Database", "App data")
+            }
+      }
 
 ```

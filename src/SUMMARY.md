@@ -6,7 +6,7 @@
   - [10+ years evergreen](./what/evergreen.md)
   - [Zero operations](./what/zero.md)
 
-- [Quick start](./quick.md)
+- [Quick start](./quickstart.md)
 
   - [Installation](./quickstart/install.md)
   - [Bootstrap](./quickstart/bootstrap.md)

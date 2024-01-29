@@ -7,9 +7,9 @@
 
 [Golang](https://go.dev) is used for frontend and backend development because of its backward compatibility guarantee, meaning code that is written today will be guaranteed to compile in the future with no changes (as has been the case for that last 13 years).
 
-10.10.0 apps have almost no direct dependencies and no indirect dependencies which means these apps have minimal supply chain issues such as obsolescence, patching, etc. The few dependences that are used have been stable for many years and have no transitive dependencies.
+10.10.0 apps have almost no direct dependencies which means these apps have minimal supply chain issues such as obsolescence, patching, etc. The few dependences that are used have been stable for many years and have no transitive dependencies.
 
 10.10.0 apps use technologies pioneered in **digital natives**, but are tailored to meet the requirements and complexities found in **enterprise**. Specifically:
 
-- Favour of simplicity for long term maintainabiliy overd complex high throughput requirements of digital natives
+- Favour architectural simplicity for long term maintainability, over complex high throughput requirements of digital natives
 - Include enterprise required operational and security controls

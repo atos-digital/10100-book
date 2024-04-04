@@ -17,8 +17,9 @@
 
   - [Frontend](./stack/frontend.md)
   - [Backend](./stack/backend.md)
-  - [Microservices platform](./stack/microservices.md)
+  - [Cloud](./stack/cloud.md)
   - [CICD](./stack/cicd.md)
+  - [Resources](./stack/resources.md)
 
 - [Trade-offs](./tradeoffs.md)
 

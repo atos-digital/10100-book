@@ -11,3 +11,5 @@ Frontends are written in golang and served by the golang http server. You will a
 ## Why not ReactJS or Angular or something similar?
 
 ![Go](../img/htmx.jpg)
+
+Thanks to Angelo Fallaria for this wonderful [image](https://twitter.com/angelo_fallaria/status/1747852397769269264?s=46&t=e4olOQNidU3pP6ZVlFOvIg)

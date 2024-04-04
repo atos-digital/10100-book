@@ -2,7 +2,7 @@
 
 ## Existing approaches
 
-Enterprises tend to hae longer development cycles for features than necessary mainly due to two factors.
+Enterprises tend to have longer development cycles for features than necessary mainly due to two factors.
 
 ### Complex decision-making processes
 
@@ -22,7 +22,7 @@ Use the most lean development system appropriate to your circumstance, preferabl
 
 ### Standardised, opinionated tech stack
 
-Use the 10.10.0 tech stack based on a [Golang](https://go.dev) and [HTMX](https://htmx.org). This tech stack avoids the constant upgrade cycles of frameworks such as [dotnet](https://dotnet.microsoft.com/en-us/) or [java](https://www.java.com/en/), and sprawling dependencies with their complex supply chains.
+Use the 10.10.0 tech stack based on a [Golang](https://go.dev) and [HTMX](https://htmx.org). This tech stack avoids the constant upgrade cycles of frameworks such as [dotnet](https://dotnet.microsoft.com/en-us/) or [spring](https://spring.io), and sprawling dependencies with their complex supply chains.
 
 Use the opinionated 10.10.0 application [template](https://github.com/atos-digital/10.10.0-template) that comes with a standardised design patterns, CI/CD pipeline, linters, and mature libraries to reduce the time and effort spent on getting started and enforcing good practices.
 
